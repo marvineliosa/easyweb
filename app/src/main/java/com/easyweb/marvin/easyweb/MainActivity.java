@@ -15,8 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void cambio(){
         //sleep();
-        Intent intent = new Intent(MainActivity.this, pagina_principal.class);
-        startActivity(intent);
+        /*Intent intent = new Intent(MainActivity.this, pagina_principal.class);
+        startActivity(intent);//*/
+
+        Intent principal = new Intent(MainActivity.this,principal.class);
+        startActivity(principal);//*/
 
     }
 }

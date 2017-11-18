@@ -135,7 +135,7 @@ public class pagina_principal extends AppCompatActivity {
 
 //clase my adapter
 
-class MyAdapter extends ArrayAdapter {
+/*class MyAdapter extends ArrayAdapter {
     int[] ID;
     String[] nombre;
 
@@ -153,7 +153,7 @@ class MyAdapter extends ArrayAdapter {
 
         TextView thisTexto = (TextView) row.findViewById(R.id.textoItem);
 
-        thisTexto.setText(this.nombre[position]);//*/
+        thisTexto.setText(this.nombre[position]);//
 
         View view = super.getView(position, convertView, parent);
         return row;
@@ -161,4 +161,4 @@ class MyAdapter extends ArrayAdapter {
     public void mensaje (String r) {
         //Toast.makeText(getApplicationContext(), r, Toast.LENGTH_SHORT).show();
     }
-}
+}//*/
